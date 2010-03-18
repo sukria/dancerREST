@@ -82,8 +82,7 @@ get '/user/:id' => sub {
 
 sub _render_user {
     my $result  = shift;
-    my $request = request;
-    if ( $request->is_ajax ) {
+    if ( request->is_ajax ) {
         return $result;
     }
     else {
