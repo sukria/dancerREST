@@ -1,4 +1,4 @@
-#!/home/franck/local/bin/perl
+#!/usr/bin/env perl
 use Dancer;
 use dancerREST;
 dance;
