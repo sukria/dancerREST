@@ -1,5 +1,5 @@
 package dancerREST;
-use Dancer;
+use Dancer ':syntax';
 
 my %users = ();
 
